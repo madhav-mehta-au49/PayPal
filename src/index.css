@@ -11,3 +11,242 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.navbar{
+    background-color: #010D83;
+    display: flex;
+    height: 6rem;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 901;
+    position: absolute;
+}
+.icon img{
+  display: flex;
+  justify-content: left;
+  padding-top: 12px;
+  height: 80px;
+  padding-left: 50px;
+  background-color:#010D83;
+
+}
+img{
+  padding-left: 70px;
+}
+.main-nav{
+  width: 100%;
+}
+.navbar nav{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-primary{
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    margin: 0;
+    padding-left: 50px;
+}
+.nav-primary a{
+  margin: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 0.5;
+  align-items: center;
+}
+a{
+    align-items: center;
+    border: 1px solid #010D83;
+    border-radius: 35px;
+    cursor: pointer;
+    display: flex;
+    margin-left: 10px;
+    padding: 15px;
+    text-align: center;
+    color: #d1f1ff;
+    text-decoration: none;
+    
+    
+}
+
+.nav-primary a:hover{
+  border: 2.5px solid #142c8e;
+  border-radius: 35px;
+  transition: 0.3s;
+  
+  
+ 
+}
+.main{
+  background-color: rgba(209,241,255,.1);
+}
+.nav-secondary{
+  align-items: center;
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  margin: 0;
+  padding-right: 90px;
+}
+.nav-secondary a{
+  
+  font-size: 23px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 0.5;
+  align-items: center;
+  margin: -3px;
+}
+button{
+  margin: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 0.5;
+  align-items: center;
+  border: none;
+  background-color: #010D83;
+  color: #d1f1ff;
+}
+.main-body{
+  margin-top: 10%;
+  margin-left: 15%;
+  box-sizing: border-box;
+  height: 70px;
+  width: 60%;
+  margin-right: 20px;
+  border: 0.7px solid #494b4b;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+}
+.main-body span{
+  margin-left: 30px;
+  font-size: 23px;
+  color: #494b4b;
+}
+.main-body input{
+  outline: none;
+  border: none;
+  width: 80%;
+  font-size: 20px;
+  margin-left: 15px;
+  font-weight:400;
+  color: #494b4b;
+}
+.download{
+  background-color: #f7f5f0!important;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-top: 11%;
+  margin-right: 15%;
+}
+.dwn{
+  height: 20px;
+}
+.container{
+ display: flex;
+ align-items: center;
+ height: 100%;
+}
+h3{
+  margin-right: 64%;
+  font-weight: 500;
+}
+.btns{
+  display: flex;
+  justify-content:left;
+  margin-left: 15%;
+}
+.drop-1{
+  appearance: none;
+  margin-right: 2%;
+  height: 45px;
+  width: 14.5%;
+  border-radius: 35px;
+  border: none;
+  outline: none;
+  background-color: #d1f1ff;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: #010d83!important ;
+  cursor: pointer;
+}
+.drop-2{
+  appearance: none;
+  margin-right: 2%;
+  height: 45px;
+  width: 8%;
+  border-radius: 35px;
+  border: 0.7px solid #494b4b;
+  padding: 12px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: #010d83!important ;
+  cursor: pointer;
+}
+.drop-3{
+  appearance: none;
+  height: 45px;
+  width: 8%;
+  border-radius: 35px;
+  border: 0.7px solid #494b4b;
+  padding: 12px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: #010d83!important ;
+  cursor: pointer;
+}
+.head-2{
+  margin-right: 63%;
+  font-weight: bold;
+  margin-top: 3%;
+}
+h4{
+  margin-right: 64.5%;
+  font-weight: 400;
+  margin-top: 1%;
+  color: #494b4b;
+}
+.transection{
+  box-sizing: border-box;
+  height: 78px;
+  width: 64%;
+  margin-left: 15%;
+  border: 1px solid;
+  border-color: lightgray;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  display: flex;
+  align-items: center
+}
+.new-logo{
+  box-sizing: border-box;
+  height: 50px;
+  width: 54px;
+  background-color: lawngreen;
+  align-items: center;
+  display: flex;
+  justify-content:center;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.content{
+  width: 60%;
+  line-height: 8px;
+}
+
+
+
+
+
+
+
